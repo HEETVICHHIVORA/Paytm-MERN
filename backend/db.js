@@ -1,9 +1,6 @@
 require ("dotenv").config();
 const mongoose = require('mongoose')
-mongoose.connect(process.env.URL,{
-    useNewUrlParser:true,
-    useUnifiedTopology:true
-});
+mongoose.connect(process.env.URL);
 
 const Schema = mongoose.Schema;
 
