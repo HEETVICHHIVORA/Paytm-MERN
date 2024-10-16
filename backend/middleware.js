@@ -1,4 +1,4 @@
-const JWT_SECRET = (process.env.SECRET);
+const JWT_SECRET = "ABCD";
 const jwt = require("jsonwebtoken");
 
 const authMiddleware = (req, res, next) => {
